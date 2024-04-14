@@ -1,0 +1,24 @@
+1. Aprendizado de máquina (ML) é um ramo da inteligência artificial que dota os algoritmos da capacidade de aprender com dados, identificar padrões e tomar decisões inteligentes. Em vez de serem programados com regras rígidas, os modelos de ML são "treinados" com grandes conjuntos de dados, permitindo que eles se adaptem e melhorem automaticamente. Imagine um algoritmo que analisa imagens de raios-X para detectar sinais de pneumonia. Com o tempo e mais dados, esse algoritmo se torna cada vez mais preciso em identificar a doença.
+
+2. 
+Conjunto de Treinamento: Esse conjunto fornece os dados com os quais o modelo se familiariza e aprende a identificar padrões.
+Conjunto de Validação: Esse conjunto serve para ajustar os parâmetros do modelo e evitar o "overfitting", garantindo que ele não memorize os dados de treinamento, mas sim generalize para novas situações.
+Conjunto de Teste: Esse conjunto é utilizado para avaliar o desempenho final do modelo em dados nunca antes vistos, fornecendo uma medida precisa de sua generalização e confiabilidade.
+
+3.
+Eliminação de Instâncias: Se os dados ausentes forem em pouca quantidade, remover as linhas ou colunas afetadas pode ser uma solução simples.
+Imputação de Valores: Técnicas estatísticas ou algorítmicas podem ser utilizadas para estimar os valores ausentes, como a média da coluna ou valores preditivos baseados em outras variáveis.
+Algoritmos Robustos: Alguns algoritmos de ML são mais tolerantes a dados ausentes, como árvores de decisão ou k-Nearest Neighbors.
+
+4. A matriz de confusão é uma ferramenta essencial para avaliar o desempenho de um modelo preditivo, especialmente em tarefas de classificação. Ela apresenta um resumo detalhado dos resultados, dividindo as previsões do modelo em:
+Verdadeiros Positivos (VP): Quando o modelo classifica corretamente um caso positivo.
+Verdadeiros Negativos (VN): Quando o modelo classifica corretamente um caso negativo.
+Falsos Positivos (FP): Quando o modelo classifica um caso negativo como positivo.
+Falsos Negativos (FN): Quando o modelo classifica um caso positivo como negativo.
+Com base nesses valores, podemos calcular métricas como acurácia, precisão, sensibilidade e especificidade, que fornecem uma visão completa do desempenho do modelo em diferentes tipos de previsões.
+
+5.A respeito da área da saúde podemos falar sobre:
+Diagnóstico Preciso: Algoritmos de ML podem analisar imagens médicas, como raios-X e tomografias, para auxiliar no diagnóstico precoce e preciso de doenças, como câncer e doenças cardíacas.
+Desenvolvimento de Medicamentos: O ML pode acelerar a descoberta de novos medicamentos e terapias, analisando grandes conjuntos de dados moleculares e genômicos para identificar compostos promissores e prever sua efetividade.
+Personalização da Saúde: O ML pode auxiliar na criação de planos de tratamento personalizados, levando em consideração as características genéticas, o histórico médico e o estilo de vida de cada paciente.
+Monitoramento de Pacientes: Sensores e dispositivos vestíveis podem coletar dados de saúde em tempo real, que podem ser analisados por algoritmos de ML para detectar sinais precoces de doenças e auxiliar no monitoramento de pacientes crônicos.
